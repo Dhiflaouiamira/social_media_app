@@ -1,7 +1,7 @@
 import Share from "../share/Share"
 import "./feed.css"
 import React from "react"
-import Post from "../post/post"
+import Post from "../post/Post"
 export default function Feed() {
   return (
     <div  className="feed">

@@ -4,6 +4,7 @@ import Room from '@mui/icons-material/Room';
 import Label from '@mui/icons-material/Label';
 import EmojiEmotions from '@mui/icons-material/EmojiEmotions';
 
+import React from "react";
 
 export default function Share() {
   return (

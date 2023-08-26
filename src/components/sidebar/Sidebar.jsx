@@ -11,7 +11,7 @@ import Event from '@mui/icons-material/Event';
 import School from '@mui/icons-material/School';
 import { Button } from "@mui/material";
 
-
+import React from "react";
 
 export default function Sidebar() {
   return (
