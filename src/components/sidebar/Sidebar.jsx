@@ -1,6 +1,6 @@
 import "./sidebar.css";
 import RssFeed from '@mui/icons-material/RssFeed';
-import ChatIcon from '@mui/icons-material/Chat';
+import Chat from '@mui/icons-material/Chat';
 
 import PlayCircleFilledOutlined from '@mui/icons-material/PlayCircleFilledOutlined';
 import Group from '@mui/icons-material/Group';
@@ -9,7 +9,7 @@ import HelpOutline from '@mui/icons-material/HelpOutline';
 import WorkOutline from '@mui/icons-material/WorkOutline';
 import Event from '@mui/icons-material/Event';
 import School from '@mui/icons-material/School';
-import { Button } from "@mui/material";
+
 
 import React from "react";
 
@@ -23,7 +23,7 @@ export default function Sidebar() {
             <span className="sidebarListItemText">Feed</span>
           </li>
           <li className="sidebarListItem">
-            <ChatIcon className="sidebarIcon" />
+            <Chat className="sidebarIcon" />
             <span className="sidebarListItemText">Chats</span>
           </li>
           <li className="sidebarListItem">
@@ -55,19 +55,12 @@ export default function Sidebar() {
             <span className="sidebarListItemText">Courses</span>
           </li>
         </ul>
-
-
-        <Button className="sidebarButton">   Show More    </Button>
-        <rh className="sidebarHr"/>
-          <ul  className="sidebarFriendList"/>
-            <li className="sidebarFriend">
-               
-                 <span  className="sideBarFriendname"  >amira</span>
-    
-              </li>
-
-   
-
+        <button className="sidebarButton">Show More</button>
+        <hr className="sidebarHr" />
+        <ul className="sidebarFriendList">
+       
+          
+        </ul>
       </div>
     </div>
   );
