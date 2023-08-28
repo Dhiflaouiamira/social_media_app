@@ -4,6 +4,7 @@ import Online from "../online/Online";
 
 export default function Rightbar({ profile }) {
   const HomeRightbar = () => {
+    
     return (
       <>
         <div className="birthdayContainer">
@@ -22,7 +23,6 @@ export default function Rightbar({ profile }) {
       </>
     );
   };
-
   const ProfileRightbar = () => {
     return (
       <>
