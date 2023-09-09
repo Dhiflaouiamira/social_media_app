@@ -12,7 +12,10 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">TrendWave</span>
+      <span href="/" style={{textDecoration:"none"}} className="logo">TrendWave</span>
+ 
+       
+      
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
@@ -43,6 +46,7 @@ export default function Topbar() {
           </div>
         </div>
         <img src="/assets/person/1.jpeg" alt="" className="topbarImg"/>
+        
       </div>
     </div>
   );
